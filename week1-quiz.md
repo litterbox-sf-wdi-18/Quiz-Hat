@@ -6,7 +6,7 @@ Name:____________________________
 Each page of the quiz has a set of related questions. 
 Code as much as you can, even if it’s psuedo-code. We are interested in your thought process and problem solving, not just syntax or one “right” answer.
 
------------
+
 
 ##HTTP Basics   
 
@@ -61,7 +61,7 @@ Code as much as you can, even if it’s psuedo-code. We are interested in your t
 
 	```
 
-----------------  
+
 
 ##Concept Review   
 
@@ -130,8 +130,8 @@ Code as much as you can, even if it’s psuedo-code. We are interested in your t
 	   
 	```
 
------------------
- 
+
+
 ##Express
 
 8.	Briefly describe the purpose of each of the following files or directories in *our* Express projects so far. 
@@ -200,7 +200,7 @@ Code as much as you can, even if it’s psuedo-code. We are interested in your t
 	}); 
 	```
 
------------
+
 
 ##Mongo
 
@@ -224,21 +224,100 @@ Code as much as you can, even if it’s psuedo-code. We are interested in your t
 
 
 11.	Sal can’t access the Mongo docs but does remember the method names listed below.  Briefly describe how Sal might use each method.  
-•	create
+	* create
+	```
+	   
+	   
+	   
+	   
+	```   
 
-•	connect
+	* connect
+	```
+	   
+	   
+	   
+	   
+	```   
+	
+	* find
+	```
+	   
+	   
+	   
+	   
+	```   
+	
+	* remove
+	```
+	   
+	   
+	   
+	   
+	```   
+	
+	* Schema
+	```
+	   
+	   
+	   
+	   
+	```  
 
-•	find
+	* model
+	```
+	   
+	   
+	   
+	   
+	```   
 
-•	remove
 
-•	Schema
 
-•	model
- 
-BONUS – Using APIs
+## BONUS – Using APIs
 
-Juggler Supply Co. (http://www.juggleit.co) has an API with the following endpoint  documentation:
+Juggler Supply Co. (http://www.juggleit.co) has an API with the following endpoint  documentation:  
+
+**Search**: Return all matching juggling supply products.  
+Path: `/api/supplies/search`  
+Parameters:  
+	•	q - search query term or phrase.  
+	•	limit - (optional) number of results to return. Default 10.  
+	•	offset - (optional) results offset. Defaults to 0.  
+	•	danger (optional) - limit results to supplies with this danger level (safe, medium, superdanger).  
+Example response:  
+
+	```
+	{  “data”: [ 	  
+		{ “name”: “Simple Balls”, “danger”: “medium”},   
+		{ “name”: “Deceptively Simple Balls”, “danger”: “superdanger”}   
+	]}
+	```
+
+**Random**: Return a random juggling supply product.  
+Path: `/api/supplies/random`  
+Example response:  
+
+	```
+	{ “data” :   
+		{ “name”: “Bunnies”, “danger”: “medium” }   
+	}  
+	```
+
+**Top**: Return the top most popular juggling supply pages.  
+Path: `/api/supplies/top`  
+Parameters:  
+	•	limit (optional) - number of results to return. Default 2.  
+	•	danger  (optional) - limit results to supplies with this danger level (safe, medium, or superdanger)   
+Example response:  
+
+	```
+	{ “data”: [   
+		{ “name”: “Frank’s Flaming Knives”, “danger”: “superdanger”},  
+		{ “name”: “Hilda’s Hackeysacks”, “danger”: “safe”}  	  	
+	]}  
+	```
+
 
 12.	Give a jQuery code example of how a frontend developer would request the top 5 products on this week’s popular items list. Double bonus: Add the data to the html page using jQuery.
 
