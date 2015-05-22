@@ -32,9 +32,9 @@
 
 1. What data structure is the DOM and what does it stand for? 
 
-1. What is V8 and where is it used? 
+1. What is V8? Name two places it is used. 
 
-1. Show two notations for retrieving data from an object. 
+1. Show two different notations for accessing a value from an object. 
 
 1. What does CRUD stand for? 
 
@@ -50,4 +50,4 @@
 
 1. What is validation? How would you validate an email address input?
 
-1. Give two UX-related questions you should ask when designing an app.
+1. Imagine you disagree with your UX Designer, what is the proper way to approach this situation?
