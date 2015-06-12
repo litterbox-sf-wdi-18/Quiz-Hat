@@ -1,7 +1,7 @@
 #Week7 Questions in a Hat
 
 * If you don't know, you can call on a peer who raises their hand
-* Write down the topics you want to discuss further, so that we may break into topical squads
+ 
 
 1. Explain the difference between `form_tag` and `form_for` and provide an example of when you would use each.
 
