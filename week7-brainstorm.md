@@ -73,3 +73,5 @@
 1. Describe a way to make a Ruby method that can be called with 0, 1, or 2 arguments.  Bonus: How would you write a method that can take any number of arguments? 
 
 1. Give a real-world example of a one-to-one, one-to-many, and a many-to-many relationship. No authors, books, or libraries allowed. 
+
+1. What are git branches and why might we want to use them?
