@@ -378,7 +378,7 @@ quiz 1?
     
     D) border-width: 10px 1px 5px 20px;
 
-`<h2 id= “my_heading” class= “heading”>Which font wins?</h2>`
+        `<h2 id= “my_heading” class= “heading”>Which font wins?</h2>`
 
 21. Given the CSS below, which font-family does the browser use to display the above header? Circle your answer.
 
