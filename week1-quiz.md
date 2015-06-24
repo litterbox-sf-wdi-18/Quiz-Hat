@@ -254,7 +254,7 @@ quiz 1?
   
   D) input
 
-  Assume the following HTML document:
+ For questions 15 and 16, assume the following HTML document:
     
     ```
     <!DOCTYPE html>
@@ -304,7 +304,7 @@ quiz 1?
     </html>
     ```
 
-15a. To select the unordered list:
+15. To select the unordered list:
 
     A) var el = document.querySelector(".ul");
     
@@ -314,7 +314,7 @@ quiz 1?
     
     D) var el = document.querySelector("list");
 
-15b. How would you change the image to the file at /static/say_bologna.jpg?
+15. How would you change the image to the file at /static/say_bologna.jpg?
 
     A) document.querySelector("img").setAttribute("src", "/static/say_bologna.jpg");
     
