@@ -126,9 +126,7 @@ quiz 1?
     
     E) None of the above.
 
-7. Which of the following is NOT a compelling reason to introduce functions into a 
-
-computer language?
+7. Which of the following is NOT a compelling reason to introduce functions into a computer language?
 
     A) Name association
     
@@ -236,9 +234,7 @@ computer language?
   
   D) click
 
-13. In the context of the DOM, three of the following four terms are used 
-
-interchangeably. Which one doesn't belong?
+13. In the context of the DOM, three of the following four terms are used interchangeably. Which one doesn't belong?
 
   A) object
   
@@ -338,9 +334,7 @@ interchangeably. Which one doesn't belong?
     
     D) head
 
-17. Starting with least specific and ending with most specific, which of the following is in 
-
-the correct order?
+17. Starting with least specific and ending with most specific, which of the following is in the correct order?
 
     A) tag, class, id, inline
     
