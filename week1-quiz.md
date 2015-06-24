@@ -1,6 +1,7 @@
 #WDI-18 Week 1 Quiz 
 
-Name:_____________________
+Name:_____________________   
+
 
 ```bash
 $ pwd
@@ -15,11 +16,7 @@ questions answers
 $
 ```
 
-1. Refer to the sample command line session above (all directory names are 
-
-Capitalized). Which of the following commands would display the entire answers file for 
-
-quiz 1?
+1. Refer to the sample command line session above (all directory names are Capitalized). Which of the following commands would display the entire answers file for quiz 1?
 
     A) cat Quiz1/answers
     
